@@ -1,0 +1,16 @@
+/* src别名配置 */
+{
+  "compilerOptions":{
+    "baseUrl": "./",
+    "paths": {
+      "@/*":[
+        "src/*"
+      ]
+    }
+  },
+  /* 不能在什么位置使用 */
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
